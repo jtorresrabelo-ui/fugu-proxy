@@ -9,7 +9,7 @@ import cors from "cors";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const SAKANA_KEY = process.env.SAKANA_API_KEY;
+const SAKANA_KEY = "fish_5238246e9d206607640bd3a8c5a3d935d71f0156f19d48a9f4f2fd8b8228adf4";
 
 // CORS liberado
 app.use(cors({ origin: "*" }));
